@@ -1,5 +1,6 @@
 import userData from '../userData.json';
 import { Profile } from './Profile/Profile';
+
 const App = () => {
   return (
     <>

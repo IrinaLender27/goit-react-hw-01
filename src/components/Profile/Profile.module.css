@@ -1,0 +1,16 @@
+.profile {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
