@@ -1,11 +1,11 @@
 import css from './Profile.module.css';
 
-export const Profile = ({ username, tag, location, image, stats }) => {
+export const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className={css.profile}>
       <div className={css.description}>
-        <img src={image} alt="User avatar" className="avatar" />
-        <p className={css.name}>{username}</p>
+        <img src={image} alt="User avatar" className={css.avatar} width="150px" />
+        <p className={css.name}>{name}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
       </div>
